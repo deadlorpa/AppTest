@@ -24,7 +24,7 @@ namespace AppTest
             buttonBACK.Click += delegate
             {
                 Intent intent = new Intent(this, typeof(MainActivity));
-                intent.PutExtra("infoBack", editTextBACK.Text.ToString()+" #ядочь");
+                intent.PutExtra("infoBack", editTextBACK.Text.ToString());
                 StartActivity(intent);
             };
         }
